@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background-color: #005eb8;
+    color: white;
+    padding: 1rem 0;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#flag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 50px;
+}
+
+#message {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #005eb8;
+}
+
+main {
+    padding: 2rem;
+}
+
+.games-section {
+    margin-bottom: 2rem;
+}
+
+#football-games-list,
+#basketball-games-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: #005eb8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003d80;
+}
+
+footer {
+    background-color: #005eb8;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
